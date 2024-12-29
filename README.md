@@ -1,4 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gxx6ai09t0lduqum?svg=true)](https://ci.appveyor.com/project/yuriytuk/ajs8-1)
+
 Set
 Легенда
 Игрок может выбирать персонажей в команду на конкретный раунд исходя из их текущего состояния, уровня и стратегии игры. Нам необходимо не позволять ему добавлять в команду несколько раз одного и того же персонажа.
