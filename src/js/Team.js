@@ -12,7 +12,11 @@ export default class Team {
   }
   // добавляет произвольное количество персонажей в команду.
   addAll(...rest) {
-    rest.forEach((member) => this.members.add(member));
+    rest.forEach((member) => {
+      if (!this.members.has(member)) {
+        this.members.add(member);
+      }
+    });
   }
   // производит конвертацию Set в массив.
   toArray() {
